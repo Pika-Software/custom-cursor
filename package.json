@@ -1,0 +1,7 @@
+{
+    "name": "custom-cursor",
+    "files": {
+        "lua/packages/custom-cursor/package.lua": "",
+        "lua/packages/custom-cursor/init.lua": ""
+    }
+}
