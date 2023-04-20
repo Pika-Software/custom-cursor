@@ -1,4 +1,5 @@
 local gui_IsGameUIVisible = gui.IsGameUIVisible
+local packageName = gpm.Package:GetIdentifier()
 local PANEL = FindMetaTable( 'Panel' )
 local IsValid = IsValid
 local vgui = vgui
@@ -24,7 +25,7 @@ local cursor = {
     ['y'] = 0
 }
 
-hook.Add( 'PostRenderVGUI', 'gpm.custom_cursor', function()
+hook.Add( 'PostRenderVGUI', packageName, function()
     if gui_IsGameUIVisible() then return end
 
     overriding = hook.Run( 'DrawCursor', cursor )
