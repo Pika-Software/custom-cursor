@@ -1,7 +1,0 @@
-{
-    "name": "custom-cursor",
-    "files": {
-        "lua/packages/custom-cursor/package.lua": "https://raw.githubusercontent.com/Pika-Software/custom-cursor/master/lua/packages/custom-cursor/package.lua",
-        "lua/packages/custom-cursor/init.lua": "https://raw.githubusercontent.com/Pika-Software/custom-cursor/master/lua/packages/custom-cursor/init.lua"
-    }
-}
