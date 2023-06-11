@@ -1,4 +1,4 @@
 name = "custom-cursor"
 main = "init.lua"
 server = false
-version = 2
+version = 010000
